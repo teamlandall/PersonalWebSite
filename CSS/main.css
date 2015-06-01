@@ -10,6 +10,10 @@ body {
   
 }
 
+ul {
+ padding: 0; 
+}
+
 a {
 	text-decoration: none;
 }
@@ -20,7 +24,7 @@ a {
 .site-header {
 	min-height: 56px;
 	text-align: center;
-	margin: 5% auto 0px;
+	margin: 50px auto 0px;
 	border-bottom: 5px solid #E8E8E8;
 	max-width: calc(800px);
 }
@@ -31,6 +35,8 @@ a {
 	margin-left: auto;
 	padding-right: 30px;
 	padding-left: 30px;
+  text-align: center;
+  margin-top: 3%;
 }
 
 .site-title {
@@ -50,11 +56,8 @@ a {
 
 /** index Body **/
 
-.centered{
-  width: 100%;
-  max-width: calc(800px);
-  margin: 50px auto;
-  text-align: center; 
+section {
+ text-align: center; 
 }
 
 section li {
@@ -118,8 +121,9 @@ nav a.selected, nav a:hover {
 .profile-photo {
   display: block;
   max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%
+  margin: 30px auto 30px;
+  text-align:: center;
+  border-radius: 100%;
 }
 
 .accomplishments{
@@ -136,4 +140,48 @@ nav a.selected, nav a:hover {
 /* selected nav link */
 .accomplishments a:hover {
   color: #00c0ff; 
+}
+
+/*****************
+PAGE: CONTACT
+*****************/
+
+h3 {
+ text-align: center;
+}
+
+.contact-info {
+ text-align: center;
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ font-size: 0.9em;
+}
+
+.contact-info li {
+   
+}
+
+.contact-info a {
+ display: block;
+ padding: 0;
+ margin: 0;
+}
+
+/**
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+**/
+
+footer {
+ text-align: center; 
 }

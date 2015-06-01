@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 700px) { 
+    
+.site-header { 
+  margin: 10px auto 0px; 
+} 
+ 
+.site-title { 
+  font-size: 20px; 
+  width: 100%; 
+  text-align: center; 
+  padding: 0; 
+} 
+      
+nav { 
+  width: 100%; 
+  text-align: center; 
+  padding: 10px 0px 20px; 
+}
+
+section li {
+  display: list-item; 
+  text-align: center;
+  padding: 10px;
+}
+  
+}
