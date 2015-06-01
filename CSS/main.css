@@ -63,8 +63,8 @@ section {
 section li {
 	margin: 0px;
 	padding: 20px;
-  font-size: 18px;
-  font-weight: 500;
+	font-size: 18px;
+	font-weight: 500;
 	list-style-type: none;
 	display: inline-block;
 }
@@ -142,9 +142,7 @@ nav a.selected, nav a:hover {
   color: #00c0ff; 
 }
 
-/*****************
-PAGE: CONTACT
-*****************/
+/** Contact Page **/
 
 h3 {
  text-align: center;
@@ -158,29 +156,13 @@ h3 {
  font-size: 0.9em;
 }
 
-.contact-info li {
-   
-}
-
 .contact-info a {
  display: block;
  padding: 0;
  margin: 0;
 }
 
-/**
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
-}
-**/
+/** Footer **/
 
 footer {
  text-align: center; 
